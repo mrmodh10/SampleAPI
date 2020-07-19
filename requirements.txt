@@ -71,7 +71,6 @@ python-dateutil==2.8.0
 pyttsx==1.1
 pyttsx3==2.71
 pytz==2020.1
-pywin32==228
 PyYAML==5.3.1
 qrtools==0.0.2
 regex==2019.6.8
