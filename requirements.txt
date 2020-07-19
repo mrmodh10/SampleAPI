@@ -62,7 +62,6 @@ protobuf==3.9.1
 psycopg2==2.8.5
 pylint==2.5.3
 pyparsing==2.4.2
-pypiwin32==223
 pypn==0.9
 pypng==0.0.19
 PyQRCode==1.2.1
