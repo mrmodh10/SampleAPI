@@ -60,7 +60,6 @@ Pillow==7.0.0
 pipenv==2020.6.2
 protobuf==3.9.1
 psycopg2==2.8.5
-pyBarcode==0.7
 pylint==2.5.3
 pyparsing==2.4.2
 pypiwin32==223
