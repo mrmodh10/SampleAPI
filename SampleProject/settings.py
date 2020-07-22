@@ -119,7 +119,29 @@ USE_L10N = True
 
 USE_TZ = True
 
+# Cross Origin Request Settings (CORS)
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_METHODS = (
+'GET',
+'POST',
+'PUT',
+'PATCH',
+'DELETE',
+'OPTIONS'
+)
+CORS_ALLOW_HEADERS = (
+'x-requested-with',
+'content-type',
+'accept',
+'origin',
+'authorization',
+'x-csrftoken',
+'Cache-Control'
+)
+
+# CORS_ORIGIN_WHITELIST = ['*']
+
+CORS_ALLOW_CREDENTIALS = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
